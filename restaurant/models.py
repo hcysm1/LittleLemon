@@ -16,5 +16,5 @@ class MenuItem(models.Model):
     inventory = models.SmallIntegerField()
 
 
-    def __str__(self) -> str:
+    def __str__(self):
         return self.title
